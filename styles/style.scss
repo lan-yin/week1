@@ -3,8 +3,7 @@
     padding: 0;
     font-size: 20px;
     box-sizing: border-box;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-family: 'Noto Serif TC', serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .desktop_menu {
@@ -42,8 +41,8 @@ main {
         margin-bottom: 20px;
     }
     .welcome {
-        line-height: 300px;
-        font-size: 2rem;
+        text-align: center;
+        font-size: 40px;
     }
     div.frame {
         display: flex;
@@ -53,7 +52,6 @@ main {
             display: flex;
             width: 1200px;
             justify-content: left;
-            // flex-wrap: wrap;
             div.promotion {
                 width: 50%;
                 height: 50px;
@@ -124,6 +122,9 @@ main {
     }
    
     main {
+        .welcome {
+            font-size: 1.5rem;
+        }
         div.frame {
             width: 100%;
             section.up {
