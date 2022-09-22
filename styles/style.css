@@ -73,6 +73,12 @@ main div.frame section.up div.promotion img {
 main div.frame section.up div.promotion p {
   margin-left: 5px;
 }
+main .checked {
+  color: orange;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 main .star {
   position: absolute;
   right: 50px;
